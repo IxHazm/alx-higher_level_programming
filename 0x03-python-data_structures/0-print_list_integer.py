@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""Print list of integers"""
-
-
 def print_list_integer(my_list=[]):
-    for i in my_list:
-        print("{:d}".format(i))
+    x = 0
+    while x < len(my_list):
+        print("{:d}".format(my_list[x]))
+        x += 1
